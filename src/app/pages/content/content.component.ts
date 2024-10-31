@@ -33,11 +33,11 @@ export class ContentComponent implements OnInit {
       
   setValuesToComponent(id: string | null) {
      const result = dataFake.filter(article => 
-      article.id.toString() == id)[0]; 
+      article.id == id)[0]; 
              
-              this.contentTitle = result.title;
-              this.contentDescription = result.description; 
-              this.photoCover = result.photoCover; 
+              this.contentTitle = result.title
+              this.contentDescription = result.description
+              this.photoCover = result.photoCover 
             
 }            
 }

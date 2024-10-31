@@ -1,6 +1,7 @@
 .container__small-card {
     margin-bottom: 15px;
     margin-left: 10px;
+    margin-top: 0px;
    
    @media(min-width: 1000px){
     width: 700px;
@@ -15,6 +16,7 @@
 }
 
 .small-card__photo > img {
+    margin-top: 1px;
     width: 200px;
     min-width: 200px;
     margin-right: 20px;
@@ -26,6 +28,7 @@
     align-items: center;
 }
 .small-card__title > h1 {
+    font-color: rgb(255, 255, 255);
     font-size: 16px;
   }
 

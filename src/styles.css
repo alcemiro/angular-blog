@@ -4,7 +4,7 @@
     padding:0;
     box-sizing: border-box;
     background-color: rgb(19, 18, 18);
-    color: rgb (255, 255, 255);
+    color: white;
 
     font-family: 'Segoe UI';
 }
@@ -12,3 +12,10 @@
 a{
     text-decoration: none;
 }
+
+.rodape { 
+    color: white; /* Define a cor da fonte como branca */ 
+    font-size: 16px; /* Define um tamanho fixo para a fonte */ 
+    text-align: center; /* Centraliza o texto dentro do rodapé */ 
+    padding: 20px; /* Adiciona espaço interno */ 
+    background-color: #333; /* Define uma cor de fundo para o rodapé */ }

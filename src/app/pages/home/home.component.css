@@ -1,6 +1,6 @@
 
 .container__articles {
-    margin-top: 30px;
+    margin-top: 35px;
     
     @media(min-width: 600px){
     display: flex;

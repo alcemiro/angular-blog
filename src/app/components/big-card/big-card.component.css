@@ -1,5 +1,5 @@
 .container__big-card{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -17,7 +17,8 @@
     }
   }
   
-  .big-card__title > h1  {
+  .big-card__title > h1 > a {
+    font-color: rgb(255, 255, 255);
     margin-top: 15px;
     font-size: 20px;
   }

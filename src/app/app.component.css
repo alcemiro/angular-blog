@@ -3,4 +3,5 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    font-color: rgb(255, 255, 255);
 }

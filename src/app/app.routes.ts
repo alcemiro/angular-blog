@@ -13,18 +13,17 @@ import { dataFake } from './data/dataFake'
 export const routes: Routes = [
     { path: '', component: HomeComponent },
 
-    {path: '', component: BigCardComponent },
+    {path:'content/:id', component: ContentComponent },
 
-    {path: 'menu-bar', component: MenuBarComponent },
+    //{path: '', component: BigCardComponent },
+
+    //{path: 'menu-bar', component: MenuBarComponent },
     
-    {path:'menu-title', component: MenuTitleComponent },
+    //{path:'menu-title', component: MenuTitleComponent },
     
-    {path: 'small-card', component: SmallCardComponent },
+    //{path: 'small-card', component: SmallCardComponent },
 
-    {path:'content/: id', component: ContentComponent },
-
-
-    
+       
 ];
 
 @NgModule({
