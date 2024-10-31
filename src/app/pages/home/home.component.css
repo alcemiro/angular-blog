@@ -1,6 +1,10 @@
-.conteiner__articles {
-    margin-top: 30px;
 
+.container__articles {
+    margin-top: 30px;
+    
+    @media(min-width: 600px){
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    }
 }
